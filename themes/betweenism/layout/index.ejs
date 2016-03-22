@@ -4,7 +4,11 @@
 </head>
 <body>
   <%- partial('_partial/navigation') %>
-  <h1> yea </h1>
-  <%- _.find(site.pages.data, function(p){return p.title == "index";})._content %>
+  <article id="container">
+    <h1><a href="#">Explore South Asian Spirtuality</a></h1>
+    <section class="post">
+      <%- _.find(site.pages.data, function(p){return p.title == "index";})._content %>
+    </section>
+  </article>
 </body>
 </html>
