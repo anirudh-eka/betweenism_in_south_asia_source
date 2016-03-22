@@ -5,5 +5,6 @@
 <body>
   <%- partial('_partial/navigation') %>
   <h1> yea </h1>
+  <%- _.find(site.pages.data, function(p){return p.title == "index";})._content %>
 </body>
 </html>
