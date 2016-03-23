@@ -1,13 +1,13 @@
 <html>
 <head>
   <%- css('css/main') %>
-</head>
+  <meta charset="utf-8"> 
 <body>
   <%- partial('_partial/navigation') %>
   <article id="container">
     <h1><a href="#">Explore South Asian Spirtuality</a></h1>
     <section class="post">
-      <%- _.find(site.pages.data, function(p){return p.title == "index";})._content %>
+      <%- site.pages.first().content  %>
     </section>
   </article>
 </body>
