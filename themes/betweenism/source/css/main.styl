@@ -1,1 +1,67 @@
 @import "../../node_modules/toomanynames_theme/source/css/toomanynames_base"
+
+$light-gray = #a5ada9
+$saffron = rgb(255, 128, 0)
+
+.emoji
+  height: 1.6em
+  width: 1.6em
+
+.color-picker-container
+  padding: 5em 0em 6.5em 0em
+  font-family: $serif-font
+  font-weight: 300
+  height: 400px
+  .color-picker-canvas-container, .color-picker-info-container
+    display: inline-block
+    width: 48%
+  .color-picker-canvas-container
+    margin-right: 3%
+  .color-picker-info-container
+    font-size: 0.75em
+    vertical-align: top
+    h1
+      font-size: 1.5em
+      margin-top: 0
+    .link
+      @extend .l-text-align-right
+.color-picker-canvas-container
+  display: block
+  min-width: 360px
+  cursor: pointer
+  .hue-grad
+    border: 0.1px solid gray
+    height: 100%
+    width: 100%
+    background: linear-gradient(to right, green, $saffron)
+    margin: auto
+  .x-axis-labels
+    padding-top: 15px
+  .x-min
+    float: left
+    color: green
+  .x-max
+    float: right
+    color: $saffron
+  .sat-grad
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), white)
+    position: relative
+    height: 100%
+    width: 100%
+  .sat-grad:before
+    @extend .emoji
+    content: url("../images/question_mark.svg")
+    position: absolute
+    display: block
+    left: -1*12%
+    opacity: 0.55
+  .sat-grad:after
+    @extend .emoji
+    content: url("../images/exclamation_mark.svg")
+    position: absolute
+    display: block
+    left: -1*12%
+    top: 90%
+  .color-picker-pointer
+    position: relative
+    cursor: pointer
