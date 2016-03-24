@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/main.js"],"names":[],"mappings":";;AAAA;;;;;;AAEA,sBAAE,YAAW;AACX,UAAQ,GAAR,CAAY,IAAZ,EADW;CAAX,CAAF","file":"app.js","sourcesContent":["import $ from \"jquery\";\n\n$(function() {\n  console.log(\"hi\");\n});\n"]}
