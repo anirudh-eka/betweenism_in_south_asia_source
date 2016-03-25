@@ -1,0 +1,21 @@
+{
+  "name": "source",
+  "homepage": "https://github.com/anirudh-eka/betweenism_in_south_asia_source",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "anirudh-eka"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
