@@ -10,13 +10,6 @@ module.exports = grunt => {
         }
       }
     },
-    browserify: {
-      dist: {
-        files: {
-          "source/js/dist/app.js": "source/js/src/ps/main.js"
-        }
-      }
-    },
     shell: {
       pulp: {
         command: "cd source/js/src/purs/ && pulp build -O --to ./pursout.js && cd ../../../.."
