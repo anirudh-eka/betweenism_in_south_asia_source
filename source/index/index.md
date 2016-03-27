@@ -2,7 +2,6 @@
 title: index
 date: 2016-03-21 16:05:26
 ---
-
 On paper Hinduism and Islam couldn't be more different. The former boasts a pantheon of thousands of deities often revered in the form of idols, while the later instructs that there is only one God and to pray to an idol is a sin. However, despite these differences, both religions have shared South Asia as a home for over a thousand years. 
 
 The color picker below is a model to explore the meshing between these two religions at different layers. Click on various points in the color picker to discover quotes from scholars, poets, mystics, and religious texts from Islam, Hinduism and the traditions in-between!

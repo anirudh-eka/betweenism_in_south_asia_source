@@ -10,6 +10,11 @@
     <h1><a href="#">Explore South Asian Spirtuality</a></h1>
     <section class="post">
       <%- site.pages.first().content  %>
+      <% site.posts.each(function(post) { %>
+          <script id="color-picker-<%- post.id %>" type="x-tmpl-mustache">
+          <%- post.content %>
+          </script>
+      <% }) %>
     </section>
   </article>
 </body>
